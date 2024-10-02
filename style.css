@@ -22,6 +22,16 @@
 
 .title-navbar{
     color: white;
+    margin-top: 1.5rem;
+    
+}
+.title-link-navbar{
+    color: white;
+    text-decoration: none;
+}
+.title-link-navbar:hover{
+    transition: 1s ease;
+    color: black;
 }
 
 .list-navbar{
