@@ -14,8 +14,8 @@
 
 .navbar{
     background-color: rgb(129, 148, 255);
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    justify-items: center;
     height: 5rem;
     align-items: center;
 }
