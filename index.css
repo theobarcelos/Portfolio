@@ -8,63 +8,9 @@
     padding: 0;
 }
 
-.body{
+body{
     overflow-x: hidden;
-}
-
-.navbar{
-    background-color: rgb(129, 148, 255);
-    display: grid;
-    justify-items: center;
-    height: 5rem;
-    align-items: center;
-}
-
-.title-navbar{
-    color: white;
-}
-.title-link-navbar{
-    color: white;
-    text-decoration: none;
-}
-.title-link-navbar:hover{
-    transition: 1s ease;
-    color: black;
-}
-
-.list-navbar{
-    list-style: none;
-    /* You can see the codes, to align vertically a list, below */
-    display: flex; 
-    justify-content: space-around;
+    height: 100rem;
     width: 100%;
-    /* In case the list items are not centralized */
-    align-items: center;
-    /* In case one of the items are wrapping the line */
-    text-wrap: nowrap;
-    gap: 2rem;
-}
-.item-navbar{
-    /* You can see the codes, to align vertically a list, below */
-    width: 100%;   
-    font-weight: 500;
-}
-
-.link-navbar{
-    color: white;
-    text-decoration: none;
-}
-.link-navbar:hover{
-    transition: 1s ease;
-    color: black;
-    font-weight: 900;    
-}
-
-@media screen and (max-width: 700px){
-    .title-navbar{
-        font-size: 20px
-    }
-    .list-navbar{
-        gap: 1rem;
-    }
+    background-image: linear-gradient(#ffff 15%, #ACD3FF, #88C0FF, #527399, #18579D);
 }
