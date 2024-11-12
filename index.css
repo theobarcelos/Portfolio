@@ -73,14 +73,14 @@ body{
 }
 
 .name:hover{
-    transition: 3s;
+    transition: 1.5s;
     color: white;
     font-weight: 500;
     cursor: default;
 }
 
 .age:hover{
-    transition: 3s ease;
+    transition: 1.5s ease;
     color: white;
     font-weight: 500;
     cursor: default;
