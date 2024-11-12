@@ -10,7 +10,118 @@
 
 body{
     overflow-x: hidden;
-    height: 100rem;
+    height: auto;
     width: 100%;
     background-image: linear-gradient(#ffff 15%, #ACD3FF, #88C0FF, #527399, #18579D);
+}
+
+.img-logo-container{
+    display: grid;
+    justify-content: left;
+}
+
+.img-logo{
+    width: 200px;
+    transition: 1s ease;
+    transform: scale(1);
+}
+
+.img-logo:hover{
+    transition: 1s ease;
+    transform: scale(1.5);
+}
+
+.title-theo-subtitle-theo-container{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 4rem;
+}
+
+.subtitle-theo{
+    font-weight: lighter;
+}
+
+.img-profile-container{
+    display: grid;
+    justify-content: center;
+    margin-top: 7rem;
+}
+
+.img-profile{
+    border-radius: 75rem;
+    width: 250px;
+    box-shadow: black 5px 4px 7px;
+}
+
+.name-and-age-container{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.name{
+    transition: 3s;
+    font-weight: 100;
+}
+
+.age{
+    transition: 3s;
+    font-weight: 100;
+}
+
+.name:hover{
+    transition: 3s;
+    color: white;
+    font-weight: 500;
+    cursor: default;
+}
+
+.age:hover{
+    transition: 3s ease;
+    color: white;
+    font-weight: 500;
+    cursor: default;
+}
+
+.box-projects-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+/* Caixa 1 */
+.box-1-container{
+    background-image: linear-gradient(#ffff, #ACD3FF);
+    border-radius: 16px;
+    width: 100rem;
+    margin-left: 30px;
+}
+
+.box-1-img{
+    width: 100px;
+}
+
+/* Caixa 2 */
+.box-2-container{
+    background-image: linear-gradient(#ffff, #ACD3FF);
+    border-radius: 16px;
+    width: 100rem;
+    margin-left: 30px;
+}
+
+/* Caixa 3 */
+.box-3-container{
+    background-image: linear-gradient(#ffff, #ACD3FF);
+    border-radius: 16px;
+    width: 100rem;
+    margin-right: 30px;
+}
+
+/* Links das caixas */
+.box-link{
+    color: black;
+    text-decoration: none;
 }
