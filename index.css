@@ -97,6 +97,12 @@ body{
     height: 100px;
 }
 
+.img-up-arrow{
+    display: none;
+    width: 100px;
+    height: 100px;
+}
+
 
 .box-projects-container{
     display: none;
@@ -143,14 +149,13 @@ body{
     margin-right: 30px;
 }
 
-.img-down-arrow-container:hover .box-projects-container{
-    display: flex;
-    justify-content: center;
-    
-}
-
 /* Links das caixas */
 .box-link{
     color: black;
     text-decoration: none;
+}
+
+.botao-flecha{
+    background: none;
+    border: none;
 }
