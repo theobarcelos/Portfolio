@@ -1,7 +1,6 @@
 const caixas = document.getElementById("caixa-projeto");
 var flechaBaixo = document.getElementById("down-arrow");
 var flechaCima = document.getElementById("up-arrow");
-var btn = document.getElementById("button-arrow")
 
 function MyFunction(){
     if (flechaBaixo.style.display = "grid"){

@@ -95,19 +95,34 @@ body{
 .img-down-arrow{
     width: 100px;
     height: 100px;
+    transition: 1s;
 }
 
 .img-up-arrow{
     display: none;
     width: 100px;
     height: 100px;
+    transition: 1s;
+}
+
+.img-down-arrow:hover{
+    transition: 1s ease;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.img-up-arrow:hover{
+    transition: 1s ease;
+    transform: scale(1.2);
+    cursor: pointer;
 }
 
 
 .box-projects-container{
     display: none;
-    width: 100rem;
     gap: 20px;
+    justify-content: center;
+    margin-bottom: 10px;
 }
 
 /* Caixa 1 */
@@ -115,6 +130,7 @@ body{
     background-image: linear-gradient(#ffff, #ACD3FF);
     border-radius: 16px;
     width: 100rem;
+    margin-left: 10px;
 }
 
 .box-1-img-container{
@@ -130,6 +146,7 @@ body{
 
 .box-1-p-container{
     display: grid;
+    text-align: justify;
     justify-content: center;
 }
 
@@ -138,7 +155,6 @@ body{
     background-image: linear-gradient(#ffff, #ACD3FF);
     border-radius: 16px;
     width: 100rem;
-    margin-left: 30px;
 }
 
 /* Caixa 3 */
@@ -146,7 +162,7 @@ body{
     background-image: linear-gradient(#ffff, #ACD3FF);
     border-radius: 16px;
     width: 100rem;
-    margin-right: 30px;
+    margin-right: 10px;
 }
 
 /* Links das caixas */
