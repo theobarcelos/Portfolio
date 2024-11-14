@@ -10,3 +10,11 @@ function MyFunction(){
         flechaBaixo.style.display = "none";
     }
 }
+
+function FecharCaixas(){
+    if (flechaCima.style.display = "grid"){
+        caixas.style.display = "none";
+        flechaBaixo.style.display = "grid";
+        flechaCima.style.display = "none";
+    }
+}
