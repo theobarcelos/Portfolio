@@ -178,10 +178,11 @@ body{
 .box-2-img-container{
     display: grid;
     justify-content: center;
+    margin-top: 5px
 }
 
 .box-2-img{
-    width: 150px;
+    width: 100px;
 }
 
 .box-2-p-container{
