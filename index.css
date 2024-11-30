@@ -10,9 +10,7 @@
 
 body{
     overflow-x: hidden;
-    background-image: linear-gradient(#ffff 15%, #ACD3FF, #88C0FF, #527399, #18579D);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: #6A3D21;
 }
 
 .img-logo-container{
@@ -122,7 +120,7 @@ body{
     display: none;
     gap: 20px;
     justify-content: center;
-    margin-bottom: 10px;
+    margin: 10px;
 }
 
 /* Caixa 1 */
@@ -130,7 +128,6 @@ body{
     background-image: linear-gradient(#ffff, #ACD3FF);
     border-radius: 16px;
     width: 100rem;
-    margin-left: 10px;
 }
 
 .box-1-title-container{
@@ -226,8 +223,14 @@ body{
 }
 /* Links das caixas */
 .box-link{
-    color: black;
+    color: #18579D;
     text-decoration: none;
+    transition: 2s ease;
+}
+
+.box-link:hover{
+    color: #5fa9ff;
+    transition: 2s ease;
 }
 
 .botao-flecha{
