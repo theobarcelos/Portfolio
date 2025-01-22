@@ -66,9 +66,9 @@ body{
 
 .title-name-container{
     display: grid;
-    margin-top: 90px;
+    margin-top: 110px;
     justify-content: center;
-    height: 9px;
+    height: 0px;
 }
 
 .title-name{
@@ -80,7 +80,7 @@ body{
 
 .black-line-container{
     height: 1px;
-    width: 40rem;
+    width: 0%;
     justify-self: center;
 }
 
@@ -92,7 +92,7 @@ body{
     justify-self: center;
     width: 70%;
     position: relative;
-    top: -2rem;
+    bottom: 2rem;
 }
 
 .p-presentation{
