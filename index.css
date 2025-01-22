@@ -52,192 +52,38 @@ body{
     box-shadow: black 5px 4px 7px;
 }
 
-.name-and-age-container{
+.presentation-container{
+    background-color: #FFD369;
+    display: grid;
+    height: 20rem;
+    margin-top: 20rem;
+}
+
+.title-name-container{
     display: grid;
     justify-content: center;
+    margin-top: 50px;
+}
+
+.black-line-container{
+    display: grid;
+    height: 1px;
+    width: 20rem;
+    justify-self: center;
+}
+
+.black-line{
+    border-color: #222831;
+}
+
+.p-presentation-container{
+    display: grid;
+    justify-self: center;
+    width: 90rem;
+}
+
+.p-presentation{
     text-align: center;
-    margin-top: 3rem;
-}
-
-.name{
-    transition: 3s;
-    font-weight: 100;
-}
-
-.age{
-    transition: 3s;
-    font-weight: 100;
-}
-
-.name:hover{
-    transition: 1.5s;
-    color: white;
     font-weight: 500;
-    cursor: default;
-}
-
-.age:hover{
-    transition: 1.5s ease;
-    color: white;
-    font-weight: 500;
-    cursor: default;
-}
-
-.img-down-arrow-container{
-    display: grid;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.img-down-arrow{
-    width: 100px;
-    height: 100px;
-    transition: 1s;
-}
-
-.img-up-arrow{
-    display: none;
-    width: 100px;
-    height: 100px;
-    transition: 1s;
-}
-
-.img-down-arrow:hover{
-    transition: 1s ease;
-    transform: scale(1.2);
-    cursor: pointer;
-}
-
-.img-up-arrow:hover{
-    transition: 1s ease;
-    transform: scale(1.2);
-    cursor: pointer;
-}
-
-
-.box-projects-container{
-    display: none;
-    gap: 20px;
-    justify-content: center;
-    margin: 10px;
-}
-
-/* Caixa 1 */
-.box-1-container{
-    background-image: linear-gradient(#ffff, #ACD3FF);
-    border-radius: 16px;
-    width: 100rem;
-}
-
-.box-1-title-container{
-    display: grid;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-
-.box-1-title{
-    font-size: 40px;
-}
-
-.box-1-img-container{
-    display: grid;
-    justify-content: center;
-}
-
-.box-1-img{
-    width: 100px;
-}
-
-.box-1-p-container{
-    display: grid;
-    justify-content: center;
-}
-
-/* Caixa 2 */
-.box-2-container{
-    background-image: linear-gradient(#ffff, #ACD3FF);
-    border-radius: 16px;
-    width: 100rem;
-    margin-left: 10px;
-}
-
-.box-2-title-container{
-    display: grid;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-
-.box-2-title{
-    font-size: 40px;
-}
-
-.box-2-img-container{
-    display: grid;
-    justify-content: center;
-    margin-top: 5px
-}
-
-.box-2-img{
-    width: 100px;
-}
-
-.box-2-p-container{
-    display: grid;
-    justify-content: center;
-}
-/* Caixa 3 */
-.box-3-container{
-    background-image: linear-gradient(#ffff, #ACD3FF);
-    border-radius: 16px;
-    width: 100rem;
-    margin-left: 10px;
-}
-
-.box-3-title-container{
-    display: grid;
-    justify-content: center;
-}
-
-.box-3-title{
-    font-size: 40px;
-}
-
-.box-3-img-container{
-    display: grid;
-    justify-content: center;
-}
-
-.box-3-img{
-    width: 100px;
-}
-
-.box-3-p-container{
-    display: grid;
-    justify-content: center;
-}
-
-.box-p{
-    text-align: justify;
-    width: 500px;
-}
-/* Links das caixas */
-.box-link{
-    color: #18579D;
-    text-decoration: none;
-    transition: 2s ease;
-}
-
-.box-link:hover{
-    color: #5fa9ff;
-    transition: 2s ease;
-}
-
-.botao-flecha{
-    background: none;
-    border: none;
-}
-
-/* Black-Line */
-.blackline{
-    margin: 20px;
+    font-size: 20px;
 }
