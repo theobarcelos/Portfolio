@@ -66,20 +66,22 @@ body{
 
 .title-name-container{
     display: grid;
-    padding-top: 50px;
+    margin-top: 90px;
     justify-content: center;
+    height: 9px;
 }
 
 .title-name{
+    font-size: 40px;
     animation: letter-appear-title;
     animation-timeline: view();
     animation-range-end: 50%;
 }
 
 .black-line-container{
-    justify-self: center;
     height: 1px;
-    width: 20rem;
+    width: 40rem;
+    justify-self: center;
 }
 
 .black-line{
@@ -87,10 +89,10 @@ body{
 }
 
 .p-presentation-container{
-    flex: none;
-    display: grid;
-    width: 40%;
     justify-self: center;
+    width: 70%;
+    position: relative;
+    top: -2rem;
 }
 
 .p-presentation{
