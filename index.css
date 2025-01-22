@@ -54,20 +54,20 @@ body{
 
 .presentation-container{
     background-color: #FFD369;
+    height: 30rem;
     display: grid;
-    height: 20rem;
+    width: 100%;
     margin-top: 30rem;
     animation: appear 2s ease-in-out;
     animation-timeline: view();
     animation-range: cover 0% cover 40%;
     /* animation-range-end: 50%; */
-    
 }
 
 .title-name-container{
     display: grid;
+    padding-top: 50px;
     justify-content: center;
-    margin-top: 50px;
 }
 
 .title-name{
@@ -77,10 +77,9 @@ body{
 }
 
 .black-line-container{
-    display: grid;
+    justify-self: center;
     height: 1px;
     width: 20rem;
-    justify-self: center;
 }
 
 .black-line{
@@ -88,15 +87,16 @@ body{
 }
 
 .p-presentation-container{
+    flex: none;
     display: grid;
+    width: 40%;
     justify-self: center;
-    width: 90rem;
 }
 
 .p-presentation{
     text-align: center;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 22px;
     animation: letter-appear-presentation;
     animation-timeline: view();
     animation-range-end: 50%;
