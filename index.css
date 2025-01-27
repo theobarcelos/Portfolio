@@ -90,10 +90,6 @@ body{
     justify-self: center;
 }
 
-.black-line{
-    border-color: #222831;
-}
-
 .p-presentation-container{
     justify-self: center;
     width: 70%;
@@ -110,6 +106,52 @@ body{
     animation-range-end: 50%;
     transform-origin: right;    
 }
+
+.projects-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    gap: 30px;
+}
+
+.inside-prjct-container{
+    background-color: #F1A804;
+    width: 431px;
+    height: 718px;
+    border-radius: 100px;
+    justify-items: center;
+}
+
+.img-miau{
+    width: 150px;
+    height: 150px;
+}
+
+.img-coinz{
+    width: 150px;
+    height: 150px;
+}
+
+.img-webscraping{
+    width: 190px;
+    height: 150px;
+}
+
+.title-prjct{
+    font-size: 50px;
+}
+
+.p-prjct{
+    font-size: 20px;
+    width: 358px;
+    height: 375px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+/* Keyframes */
+
+/* Keyframes presentation */
 
 @keyframes appear {
     from {
