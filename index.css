@@ -56,11 +56,6 @@ body{
     display: grid;
     z-index: 3;
     justify-content: center;
-    margin-top: -200px;
-}
-
-.img-g-e{
-    width: 1500px;
 }
 
 .presentation-container{
@@ -68,7 +63,7 @@ body{
     height: 30rem;
     display: grid;
     width: 100%;
-    margin-top: -85px;
+    margin-top: -17rem;
     animation: appear 2s ease-in-out;
     animation-timeline: view();
     animation-range: cover 0% cover 40%;
