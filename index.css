@@ -110,16 +110,20 @@ body{
 .projects-container{
     display: flex;
     justify-content: center;
-    margin-top: 70px;
-    gap: 30px;
+    margin-top: 20rem;
+    gap: 50px;
 }
 
-.inside-prjct-container{
+.miau-container{
     background-color: #F1A804;
     width: 431px;
     height: 718px;
     border-radius: 100px;
     justify-items: center;
+    animation: miau-appear;
+    animation-timeline: view();
+    animation-range-end: 40%;
+    
 }
 
 .img-miau{
@@ -127,9 +131,29 @@ body{
     height: 150px;
 }
 
+.coinz-container{
+    background-color: #F1A804;
+    width: 431px;
+    height: 718px;
+    border-radius: 100px;
+    justify-items: center;
+    z-index: 1;
+}
+
 .img-coinz{
     width: 150px;
     height: 150px;
+}
+
+.webscraping-container{
+    background-color: #F1A804;
+    width: 431px;
+    height: 718px;
+    border-radius: 100px;
+    justify-items: center;
+    animation: webscraping-appear;
+    animation-timeline: view();
+    animation-range-end: 40%;
 }
 
 .img-webscraping{
@@ -185,6 +209,28 @@ body{
 
     to{
         opacity: 1;
+        translate: 0 0;
+    }
+}
+
+/* Keyframes Projects */
+
+@keyframes miau-appear {
+    from{
+        translate: 24vw 0;
+    }
+
+    to{
+        translate: 0 0;
+    }
+}
+
+@keyframes webscraping-appear{
+    from {
+        translate: -24vw 0;
+    }
+
+    to{
         translate: 0 0;
     }
 }
