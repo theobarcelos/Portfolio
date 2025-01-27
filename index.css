@@ -107,6 +107,12 @@ body{
     transform-origin: right;    
 }
 
+.img-lightbulb-container{
+    display: grid;
+    justify-items: center;
+    height: 120px;
+}
+
 .projects-container{
     display: flex;
     justify-content: center;
