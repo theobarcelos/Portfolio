@@ -12,6 +12,20 @@ body{
     overflow-x: hidden;
 }
 
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track{
+    background-color: #FFD369;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #F1A804;
+    border-radius: 10px;
+}
+
 .img-logo-container{
     display: grid;
     justify-content: left;
