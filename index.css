@@ -179,6 +179,34 @@ body{
     text-align: justify;
 }
 
+.button-prjct{
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    box-shadow: #000 5px 5px 6px ;
+    background-color: #73839A;
+    color: #FFFF;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+    transform: scale(1);
+}
+
+.button-prjct:hover{
+    transition: 1s ease-in-out;
+    transform: scale(1.2);
+    box-shadow: #000 2px 2px 5px;
+    background-color: #4A5664;
+}
+
+.p-warning{
+    font-weight: 400;
+    text-decoration: underline;
+}
+
 /* Keyframes */
 
 /* Keyframes presentation */
