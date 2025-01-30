@@ -12,20 +12,6 @@ body{
     overflow-x: hidden;
 }
 
-
-body::-webkit-scrollbar {
-    width: 12px;
-}
-
-body::-webkit-scrollbar-track{
-    background-color: #FFD369;
-}
-
-body::-webkit-scrollbar-thumb{
-    background: #F1A804;
-    border-radius: 10px;
-}
-
 .img-logo-container{
     display: grid;
     justify-content: left;
@@ -35,6 +21,10 @@ body::-webkit-scrollbar-thumb{
     width: 200px;
     transition: 1s ease;
     transform: scale(1);
+}
+
+.img-logo-mobile{
+    display: none;
 }
 
 .img-logo:hover{
@@ -281,4 +271,60 @@ body::-webkit-scrollbar-thumb{
     to{
         translate: 0 0;
     }
+}
+
+@media screen and (max-width: 700px){
+    body{
+        overflow-x: hidden;
+        width: 100%;
+    }
+    
+    .img-logo-container{
+        display: grid;
+        margin: 2rem;
+        justify-content: center;
+    }
+
+    .img-logo{
+        display: none;
+    }
+
+    .img-logo-mobile{
+        display: grid;
+        width: 100px;
+        transition: 1s ease;
+        transform: scale(1);
+    }
+    
+    .img-logo:hover{
+        transition: 1s ease;
+        transform: scale(1.5);
+    }
+    
+    .title-theo-subtitle-theo-container{
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        gap: 20px;
+    }
+
+    .title-theo-container{
+        width: 25rem;
+        justify-self: center;
+    }
+
+    .title-theo{
+        font-size: 30px;
+    }
+    
+    .subtitle-theo-container{
+        justify-self: center;
+        width: 26rem;
+    }
+
+    .subtitle-theo{
+        font-weight: lighter;
+        font-size: 20px;
+    }    
 }
