@@ -10,6 +10,7 @@
 
 body{
     overflow-x: hidden;
+    z-index: 1;
 }
 
 .img-logo-container{
@@ -58,7 +59,6 @@ body{
 
 .img-g-e-container{
     display: grid;
-    z-index: 3;
     justify-content: center;
 }
 
@@ -66,12 +66,7 @@ body{
     background-color: #FFD369;
     height: 30rem;
     display: grid;
-    width: 100%;
     margin-top: -17rem;
-    animation: appear 2s ease-in-out;
-    animation-timeline: view();
-    animation-range: cover 0% cover 40%;
-    /* animation-range-end: 50%; */
 }
 
 .title-name-container{
@@ -83,15 +78,6 @@ body{
 
 .title-name{
     font-size: 40px;
-    animation: letter-appear-title;
-    animation-timeline: view();
-    animation-range-end: 50%;
-}
-
-.black-line-container{
-    height: 1px;
-    width: 0%;
-    justify-self: center;
 }
 
 .p-presentation-container{
@@ -104,11 +90,7 @@ body{
 .p-presentation{
     text-align: center;
     font-weight: 500;
-    font-size: 22px;
-    animation: letter-appear-presentation;
-    animation-timeline: view();
-    animation-range-end: 50%;
-    transform-origin: right;    
+    font-size: 22px;    
 }
 
 .img-lightbulb-container{
@@ -211,67 +193,7 @@ body{
     text-decoration: underline;
 }
 
-/* Keyframes */
 
-/* Keyframes presentation */
-
-@keyframes appear {
-    from {
-        opacity: 0;
-        translate: -6vw 0;
-    }
-
-    to {
-        opacity: 1;
-        translate: 0 0;
-    }
-}
-
-@keyframes letter-appear-title{
-    from{
-        opacity: 1;
-        translate: -7vw 0;
-    }
-
-    to{
-        opacity: 1;
-        translate: 0 0;
-    }
-}
-
-@keyframes letter-appear-presentation{
-    from{
-        opacity: 1;
-        translate: -7vw 0;
-    }
-
-    to{
-        opacity: 1;
-        translate: 0 0;
-    }
-}
-
-/* Keyframes Projects */
-
-@keyframes miau-appear {
-    from{
-        translate: 24vw 0;
-    }
-
-    to{
-        translate: 0 0;
-    }
-}
-
-@keyframes webscraping-appear{
-    from {
-        translate: -24vw 0;
-    }
-
-    to{
-        translate: 0 0;
-    }
-}
 
 @media screen and (max-width: 700px){
     body{
